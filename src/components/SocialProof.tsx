@@ -111,9 +111,6 @@ export default function SocialProof() {
         >
           Así nos escriben todos los días personas buscando renovar la autonomía de sus equipos.
         </motion.p>
-        <p className="text-xs text-gray-400 dark:text-gray-500 mt-3">
-          Ejemplos representativos de consultas reales recibidas por Instagram.
-        </p>
       </div>
 
       <div ref={marqueeAreaRef} className="flex flex-col gap-4 relative">
