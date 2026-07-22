@@ -17,11 +17,8 @@ export default function PremiumBanner() {
           avif={appleLogoAvif}
           webp={appleLogoWebp}
           alt="Logo de Apple"
-          className="w-16 h-16 md:w-20 md:h-20 object-contain drop-shadow-sm opacity-90 dark:opacity-100 dark:invert"
+          className="w-48 h-48 md:w-72 md:h-72 lg:w-96 lg:h-96 object-contain drop-shadow-sm opacity-90 dark:opacity-100 dark:invert"
         />
-        <p className="text-xs text-center text-apple-text dark:text-gray-500 max-w-xs">
-          Servicio técnico independiente. FixBattery no está afiliado, patrocinado ni autorizado por Apple Inc.
-        </p>
       </motion.div>
     </section>
   );
